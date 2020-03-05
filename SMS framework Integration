@@ -3,4 +3,5 @@ For SMS Framework Integration, we are using a Sms Platform called Textlocal whic
 instant OTPs, notifications, two-way interactions, and other bulk SMS services.
 By using this sms gateway, we can also support multiple vendors through a single application.
 I have used the sms gateway to send sms in the form of OTP and for validating the same in case of forgot password 
-and for sending the travel confirmation sms to passengers in the form of alert which is implemented in Spring Tool Suite.
+and for sending the travel confirmation sms to passengers in the form of alert.
+The following application is implemented in Spring Tool Suite 
