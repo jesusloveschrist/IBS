@@ -5,3 +5,13 @@ By using this sms gateway, we can also support multiple vendors through a single
 I have used the sms gateway to send sms in the form of OTP and for validating the same in case of forgot password 
 and for sending the travel confirmation sms to passengers in the form of alert.
 The following application is implemented in Spring Tool Suite 
+
+TextLocal consists of 4 parameters:
+1.	Key: You can create these in your Messenger Control Panel for each application, and limit the usage of them by host IP Address.
+2.	Numbers: Comma- delimited list of mobile numbers in international format.
+3.	Sender: Sender name must be 6 alpha characters and should be pre-approved by Textlocal. In the absence of approved sender names, use the default 'TXTLCL'.
+4.	Message: The message content. This parameter should be no longer than 765 characters.
+
+The data to be passed through the HTTP connection is of the form:
+data = apiKey + numbers + message + sender
+
